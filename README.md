@@ -30,7 +30,7 @@ year={2023}
 }
 ```
 # Citation
-Please cita us if you think these codes helpful!
+Please cita it if you think these codes helpful! Thanks~
 ```bibtex
 @article{zhang2024objectadd,
   title={ObjectAdd: Adding Objects into Image via a Training-Free Diffusion Modification Fashion},
