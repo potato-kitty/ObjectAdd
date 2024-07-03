@@ -12,20 +12,30 @@ This is the official implementation of our paper ObjectAdd: Adding Objects into 
 # Reference
 Part of our codes are based on following two projects:
 1. [prompt-to-prompt](https://github.com/google/prompt-to-prompt)
-  ```bibtex
-  @article{hertz2022prompt,
-    title = {Prompt-to-Prompt Image Editing with Cross Attention Control},
-    author = {Hertz, Amir and Mokady, Ron and Tenenbaum, Jay and Aberman, Kfir and Pritch, Yael and Cohen-Or, Daniel},
-    journal = {arXiv preprint arXiv:2208.01626},
-    year = {2022},
-  }
-  ```
+```bibtex
+@article{hertz2022prompt,
+  title = {Prompt-to-Prompt Image Editing with Cross Attention Control},
+  author = {Hertz, Amir and Mokady, Ron and Tenenbaum, Jay and Aberman, Kfir and Pritch, Yael and Cohen-Or, Daniel},
+  journal = {arXiv preprint arXiv:2208.01626},
+  year = {2022},
+}
+```
 2. [layout-guidance](https://github.com/silent-chen/layout-guidance)
-   ```bibtex
-  @article{chen2023trainingfree,
-    title={Training-Free Layout Control with Cross-Attention Guidance}, 
-    author={Minghao Chen and Iro Laina and Andrea Vedaldi},
-    journal={arXiv preprint arXiv:2304.03373},
-    year={2023}
-  }
-  ```
+```bibtex
+@article{chen2023trainingfree,
+title={Training-Free Layout Control with Cross-Attention Guidance}, 
+author={Minghao Chen and Iro Laina and Andrea Vedaldi},
+journal={arXiv preprint arXiv:2304.03373},
+year={2023}
+}
+```
+# Citation
+Please cita us if you think these codes helpful!
+```bibtex
+@article{zhang2024objectadd,
+  title={ObjectAdd: Adding Objects into Image via a Training-Free Diffusion Modification Fashion},
+  author={Zhang, Ziyue and Lin, Mingbao and Ji, Rongrong},
+  journal={arXiv preprint arXiv:2404.17230},
+  year={2024}
+}
+```
