@@ -9,7 +9,7 @@ This is the official implementation of our paper ObjectAdd: Adding Objects into 
 
 3. Your can prepare your own data following the form of txt files in "mask_info" folder, the first line of these folder is the x-corordinate of left-top point of the drawn box, the secound one is its y-coordinate, and following with the width and height, the last line is the prompt of object you want to add. The defult setting of our codes requires the object word should be in the last position, for example, to add a running cat, you should type the prompt as 'A runing cat' instead of 'A cat runing'.
 
-#Reference
+# Reference
 Part of our codes are based on following two projects:
 1. [prompt-to-prompt](https://github.com/google/prompt-to-prompt)
 @article{hertz2022prompt,
