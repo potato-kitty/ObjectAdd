@@ -3,7 +3,7 @@ import torch
 import torch.nn.functional as nnf
 import numpy as np
 import abc
-import ptp_utils
+import utils
 
 LOW_RESOURCE = False 
 NUM_DIFFUSION_STEPS = 50
@@ -33,7 +33,7 @@ class LocalBlend:
             if type(words_) is str:
                 words_ = [words_]
             for word in words_:
-                ind = ptp_utils.get_word_inds(prompt, word, tokenizer)
+                ind = utils.get_word_inds(prompt, word, tokenizer)
                 alpha_layers[i, :, :, :, :, ind] = 1
         self.threshold = threshold
         self.alpha_layers = alpha_layers
