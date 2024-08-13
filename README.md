@@ -1,5 +1,5 @@
 # ObjectAdd
-This is the official implementation of our paper ObjectAdd: Adding Objects into Image via a Training-Free Diffusion Modification Fashion
+This is the official implementation of our paper "ObjectAdd: Adding Objects into Image via a Training-Free Diffusion Modification Fashion"
 
 0. To try our example, run by_reference.ipynb
 
